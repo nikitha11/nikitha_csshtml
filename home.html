@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    width:800px;
+    margin-left:200px;
+    overflow: hidden;
+    background-color: DarkSlateGray;
+    padding:20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    margin-left:100px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 100%;
+    font-style:bold;
+    font-style: oblique;
+
+}
+
+li a:hover {
+    background-color: pink;
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+.img1 {
+    float: right;
+    margin-right:80px;}
+.p{
+    text-align:center;
+    font-style:italic;
+    color:orange;
+    font-size:25px;
+  }
+.img2{
+      margin-left:70px;
+}
+</style>
+<body>
+<ul>
+  <li><div class="p" >"RAMP IT UP"<br>INDIA'S LARGEST ONLINE FASHION STORE"</div>
+  <li><img class="img2" src="logomnytra.jpg"  >
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="products.html">products</a></li>
+  <li><a href="contactus.html">contactus</a></li>
+
+</ul>
+<h2 class="w3-center"></h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="mnytra2.jpg" style="width:250%">
+  <img class="mySlides" src="myntra1.jpg" style="width:250%">
+  <img class="mySlides" src="m6.jpg" style="width:250%">
+  <img class="mySlides" src="myntra5.jpg" style="width:250%">
+  <img class="mySlides" src="myntra3.jpg" style="width:250%">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<p><img class="img1" src="logomnytra.jpg" alt="Pineapple" >
+Established by Mukesh Bansal along with Ashutosh Lawania and Vineet Saxena, Myntra sold on-demand personalized gift items. It mainly operated on the B2B (business-to-business) model during its initial years. Between 2007 and 2010, the site allowed customers to personalize products such as T-shirts, mugs, mouse pads, and others.In 2011, Myntra began selling fashion and lifestyle products and moved away from personalisation. By 2012 Myntra offered products from 350 Indian and International brands. The website launched the brands Fastrack Watches and Being Human.[11]In 2014 Myntra merged with Indian e-commerce company Flipkart.com in an estimated deal of ₹2,000 crore (US$310 million). The merger was influenced by two large common shareholders, Tiger Global and Accel Partners.[9] Myntra functions and operates independently. In 2014, Myntra's portfolio included about 1,50,000 products of over 1000 brands, with a distribution area of around 9000 pincodes in India.
+n May 2015, Myntra moved on to app-only business model wherein customers can only make purchases on the site through smartphones. The move came after the site claimed that 95 percent of Internet traffic on their site came mobile and 70 percent sales were generated through smartphones. The move to app-only generated mixed reviews and saw 10% dip in sales initially. Also in 2015, Ananth Narayanan became the Chief Executive Officer of Myntra.In 2014 Myntra merged with Indian e-commerce company Flipkart.com in an estimated deal of ₹2,000 crore (US$310 million). The merger was influenced by two large common shareholders, Tiger Global and Accel Partners.[9] Myntra functions and operates independently. In 2014, Myntra's portfolio included about 1,50,000 products of over 1000 brands, with a distribution area of around 9000 pincodes in India.In May 2015, Myntra moved on to app-only business model wherein customers can only make purchases on the site through smartphones. The move came after the site claimed that 95 percent of Internet traffic on their site came mobile and 70 percent sales were generated through smartphones. The move to app-only generated mixed reviews and saw 10% dip in sales initially.Also in 2015, Ananth Narayanan became the Chief Executive Officer of Myntra.
+</p>
+
+</body>
+</html>
+
